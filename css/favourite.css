@@ -1,0 +1,41 @@
+.favourite-bg-1 {
+    background-image: url(../img/favourites/indonesia.png);
+    grid-area: indonesia;
+    background-size: cover;
+    margin: 5% 5% 5% 15%;
+    
+
+  
+ 
+  }
+  
+.favourite-bg-2 {
+    background-image: url(../img/favourites/australia.png);
+    grid-area: australia;
+    background-size: cover;
+    margin: 5% 5% 5% 5%;
+
+  }
+  
+.favourite-bg-3 {
+    background-image: url(../img/favourites/switzerland.png);
+    grid-area: switzerland;
+    background-size: cover;
+    margin: 5%;
+    margin: 5% 15% 5% 5%;
+    
+  }
+
+.favourite {
+    display: grid;
+    grid-template-areas: 
+      'indonesia australia switzerland';
+ 
+    height: 10rem;
+   
+
+ 
+    
+  }
+  
+  
