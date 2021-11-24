@@ -1,0 +1,36 @@
+.where-togo{
+    background-color: #040E27;
+    color: white;
+    height: 7rem;
+    padding: 10px;
+    margin-top: 1rem;
+}
+
+input {
+    background-color: #040E27;
+    color: white;
+    width: 20%;
+    padding: 10px;
+    margin: 5px;
+}
+
+#where-togo-form {
+    color: white;
+    background-color: #040E27;
+}
+
+#search-button {
+    background-color: salmon;
+    color: white;
+    width: 7%;
+    border-style: none;
+    border-radius: 5px;
+
+}
+select {
+    background-color: #040E27;
+    color: white;
+    width: 20%;
+    padding: 10px;
+    margin: 5px;
+}
