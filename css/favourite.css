@@ -32,10 +32,16 @@
       'indonesia australia switzerland';
  
     height: 10rem;
-   
-
- 
-    
+    font-family: 'Nothing You Could Do';
+    color: white;
+    text-indent: 20px;
+     
+  }
+  .explore-now-button {
+    background-color: #60B99A;
+    color: white;
+    margin-left: 20px;
+    border-style: none;
   }
   
   
