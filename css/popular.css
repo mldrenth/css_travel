@@ -1,0 +1,80 @@
+#italy-div {
+    background-image: url(../img/destination/italy.png);
+    background-size: cover;
+    grid-area: italy;
+   
+}
+#brazil-div {
+    background-image: url(../img/destination/brazil.png);
+    background-size: cover;
+    grid-area: brazil;
+    padding: 5rem;
+    margin: 3rem;
+}
+#america-div {
+    background-image: url(../img/destination/america.png);
+    background-size: cover;
+    grid-area: america;
+   
+}
+#nepal-div {
+    background-image: url(../img/destination/nepal.png);
+    background-size: cover;
+    grid-area: nepal;
+    
+}
+#maldives-div {
+    background-image: url(../img/destination/maldives.png);
+    background-size: cover;
+    grid-area: maldives;
+    
+}
+#indonesia-div {
+    background-image: url(../img/destination/indonesia.png);
+    background-size: cover;
+    grid-area: indonesia;
+   
+}
+.destination-div{
+    position: relative;
+    padding: 5rem;
+    margin: 3rem
+}
+
+.destination-div > p {
+    position: absolute;
+    bottom: 5%;
+    left: 4%; 
+
+}
+
+.destination-div > button {
+    position: absolute;
+    bottom: 10%;
+    left: 25%;
+    color: white;
+    background-color: turquoise;
+    border-style: none;
+    border-radius: 40%;
+    padding: 1%;
+
+}
+
+#pop-dest-hgroup{
+    grid-area: hgroup;
+    text-align: center;
+    color: black;
+}
+
+#popular-destinations{
+    display: grid;
+    grid-template-areas: 
+    '. hgroup .'
+    'italy brazil america'
+    'nepal maldives indonesia';
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows: 1fr 4fr 4fr;
+    height: 50%;
+    color: white;
+    
+}
